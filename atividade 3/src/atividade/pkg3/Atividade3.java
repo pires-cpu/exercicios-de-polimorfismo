@@ -15,7 +15,14 @@ public class Atividade3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+               Instrumento objviolao = new Violao("Violão", "Cordas", "eagle", 9, "Cedro", false);
+        Instrumento objpiano = new Piano("Piano", "Teclas", "Steinway", 23, "Bösendorfer", false);
+        Instrumento objbateria = new Bateria("Bateria", "Percussão", "odery", 12, "Madeira", false);
+        
+        objviolao.tocar();
+        objpiano.tocar();
+        objbateria.tocar();
+      
     }
     
 }
