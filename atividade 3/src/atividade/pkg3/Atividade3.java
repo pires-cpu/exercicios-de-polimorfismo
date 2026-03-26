@@ -3,30 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicio.pkg1;
+package atividade.pkg3;
 
 /**
  *
  * @author aluno.saolucas
  */
-public class Exercicio1 {
+public class Atividade3 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-  
-        Animal a1 = new Cachorro();
-        Animal a2 = new Gato();
-        Animal a3 = new Vaca();
-        Animal a4 = new Cavalo();
-        Animal a5 = new Leao();
-
-        a1.emitirSom();
-        a2.emitirSom();
-        a3.emitirSom();
-        a4.emitirSom();
-        a5.emitirSom();
+        // TODO code application logic here
     }
     
 }
